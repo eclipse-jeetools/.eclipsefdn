@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-jeetools') {
+orgs.newOrg('webtools.jeetools', 'eclipse-jeetools') {
   settings+: {
     description: "",
     name: "WTP Java EE Tools",
